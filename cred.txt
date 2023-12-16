@@ -1,0 +1,5 @@
+user: laravel-user
+pass: seecs123
+Database: GeocityLite
+Cluster: Cluster0
+Connection: mongodb+srv://laravel-user:seecs123@cluster0.nrp8vw8.mongodb.net/

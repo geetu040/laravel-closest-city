@@ -1,0 +1,52 @@
+
+Route::get('/api/get_locations', function () {
+
+    $cities = [
+        "Cape Town",
+        "Pretoria",
+        "Pietermaritzburg",
+        "Potchefstroom",
+        "Bloemfontein",
+        "Durban",
+        "Grahamstown",
+        "Stellenbosch",
+        "Sandton",
+        "Johannesburg",
+        "Uitenhage",
+        "Parkview",
+        "Wynberg",
+        "Bedfordview",
+        "Parow",
+        "Vanderbijlpark",
+        "Middelburg",
+        "Marshalltown",
+        "East London",
+        "Olifantsfontein",
+        "Lynnwood",
+        "Rosslyn",
+        "Houghton",
+        "Silverton",
+        "Roggebaai",
+        "Midrand",
+        "Braamfontein",
+        "Gaborone",
+        "Waverley",
+        "Parktown"
+    ];
+    
+
+    return response()->json($cities);
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
